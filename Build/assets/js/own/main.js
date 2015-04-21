@@ -1,12 +1,12 @@
 $(document).ready(function() {
 
 var colors = new Array(
-  [62,35,255],
-  [60,255,60],
-  [255,35,98],
-  [45,175,230],
-  [255,0,255],
-  [255,128,0]);
+  [7,74,166],
+  [83,147,234],
+  [126,174,239],
+  [15,102,222],
+  [46,123,229],
+  [255,255,255]);
 
 var step = 0;
 //color table indices for: 
@@ -60,4 +60,8 @@ var color2 = "rgb("+r2+","+g2+","+b2+")";
 }
 
 setInterval(updateGradient,15);
+});
+$.stellar({
+  horizontalOffset: 0,
+  verticalOffset: 0
 });

@@ -1,0 +1,35 @@
+#footer {
+	background: darken($blue-base,5);
+	padding: 20px;
+
+	h5 {
+		text-transform: uppercase;
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+		li {
+			list-style: none;
+			a {
+				cursor: pointer;
+			}
+
+			i  {
+				display: inline-block;
+				margin-right: 15px;
+			}
+
+		}
+
+		&.legal-links {
+			li {
+				display: inline-block;
+				margin-right: 10px;
+
+			}
+		}
+	}
+
+
+}

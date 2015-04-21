@@ -17,8 +17,7 @@ hgroup,
 main,
 nav,
 section,
-summary {
-  display: block;
+summary   display: block;
 }
 
 audio,
@@ -155,6 +154,7 @@ textarea {
   margin: 0;
   font-family: inherit;
   font-size: 100%;
+
 }
 
 button,
@@ -172,7 +172,7 @@ html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   cursor: pointer;
-  -webkit-appearance: button;
+outline: none;
 }
 
 button[disabled],
@@ -4107,7 +4107,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #eeeeee;
+  background-color: none;
 }
 
 .nav > li.disabled > a {
@@ -4125,7 +4125,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {
-  background-color: #eeeeee;
+  background-color: $dark-blue;
   border-color: #428bca;
 }
 
@@ -4550,7 +4550,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     float: none;
     width: auto;
     margin-top: 0;
-    background-color: transparent;
+    background-color: darken($dark-blue,5);
     border: 0;
     box-shadow: none;
   }
