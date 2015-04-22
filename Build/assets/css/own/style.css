@@ -1053,6 +1053,28 @@ th {
 .glyphicon-menu-up:before {
   content: "\e260"; }
 
+@font-face {
+  font-family: 'evo-sec';
+  src: url(../fonts/evo-sec.eot);
+  src: url(../fonts/evo-sec.eot) format("embedded-opentype"), url(../fonts/evo-sec.woff) format("woff"), url(../fonts/evo-sec.ttf) format("truetype"), url(../fonts/evo-sec.svg) format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'evo-sec';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-evo-sec-icon:before {
+  content: "\e600"; }
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -5661,3 +5683,13 @@ button.close {
     #footer ul.legal-links li {
       display: inline-block;
       margin-right: 10px; }
+
+#logo {
+  font-family: 'evo-sec'; }
+  #logo i {
+    font-size: 4.6em;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    margin-top: -30px;
+    font-weight: 500; }
