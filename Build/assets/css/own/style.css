@@ -1134,7 +1134,7 @@ img {
   padding: 4px;
   line-height: 1.42857;
   background-color: #222738;
-  border: 1px solid #dddddd;
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 3px;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -4231,7 +4231,7 @@ a.badge:hover, a.badge:focus {
   margin-bottom: 20px;
   line-height: 1.42857;
   background-color: #222738;
-  border: 1px solid #dddddd;
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 3px;
   -webkit-transition: border 0.2s ease-in-out;
   -o-transition: border 0.2s ease-in-out;
@@ -5658,6 +5658,11 @@ button.close {
     color: white;
     font-size: 5em;
     padding: 20px; }
+  #hero.small {
+    padding: 30px 0px;
+    text-align: left; }
+    #hero.small h4 {
+      color: rgba(255, 255, 255, 0.5); }
 
 #hero-2 {
   padding: 40px 0px 60px;
@@ -5693,3 +5698,35 @@ button.close {
     color: white;
     margin-top: -30px;
     font-weight: 500; }
+
+.case-study {
+  padding-bottom: 60px;
+  text-align: center; }
+  .case-study i {
+    margin: 30px 0px 40px;
+    display: block;
+    text-align: center;
+    font-size: 4em; }
+  .case-study p {
+    padding: 20px 10px; }
+
+#case-overall .row {
+  border-bottom: 5px dashed #2c3248;
+  margin-bottom: 30px; }
+  #case-overall .row:last-child {
+    border-bottom: none;
+    margin-bottom: 0px; }
+
+.case-study-main {
+  text-align: left; }
+  .case-study-main p {
+    margin: 20px 0px; }
+  .case-study-main img {
+    margin: 20px 0px; }
+
+#case-logo {
+  text-align: center;
+  margin-top: 20px; }
+
+img {
+  max-width: 100%; }
